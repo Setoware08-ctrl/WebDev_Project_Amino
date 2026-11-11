@@ -18,6 +18,20 @@ body{
     background-repeat: repeat;
 }
 
+p{
+    font-size:1.2rem;
+}/*Added in Lab 8 to make website more accesible*/
+
+.nav:hover{
+    color: blue;
+}
+
+.nav:active{
+    color: green;
+}
+
+
+
 /*
 Code for the index page
 */
@@ -49,8 +63,8 @@ Code for the about page
 }
 
 #us{
-    font-weight: lighter;
-}
+    font-weight: larger; 
+} /*changed font weight for accesibilty in lab 8*/
 
 .space_u{
     word-spacing: 15px;
