@@ -3,7 +3,7 @@
 }
 
 nav {
-    background-color: orangered;
+    background-color: #1FFF39;
     padding:10px;
     margin-top: 10px;
     margin-bottom: 50px;
@@ -22,12 +22,12 @@ p{
     font-size:1.2rem;
 }/*Added in Lab 8 to make website more accesible*/
 
-.nav:hover{
-    color: blue;
+.nav:link{
+    color: #1204D2;
 }
 
 .nav:active{
-    color: green;
+    color: #652528;
 }
 
 
