@@ -2,8 +2,21 @@
     color: rgb(0,249,255);
 }
 
+@media only screen and (max-width: 1024px) {
+  #title{
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #title{
+    text-align: left;
+  }
+}
+
+
 nav {
-    background-color: #1FFF39;
+    background-color: #FFFFFF;
     padding:10px;
     margin-top: 10px;
     margin-bottom: 50px;
@@ -23,12 +36,16 @@ p{
 }/*Added in Lab 8 to make website more accesible*/
 
 .nav:link{
-    color: #1204D2;
+    color: #4C03A6;
 }
 
-.nav:active{
-    color: #652528;
-}
+.nav{
+    transition:color 1.5s linear 0.1s;
+}/*Added in Lab 10 at request of instrcutions*/
+
+.nav:hover{
+    color:#000000;
+}/*Added in Lab 10 at request of instrcutions*/
 
 
 
@@ -43,7 +60,7 @@ h2 {
 #first_pic{
     width: 50%;
     height: 50%;
-    
+   
 }
 
 #second_pic{
@@ -51,8 +68,11 @@ h2 {
 }
 
 .art_text{
-    font-size: 35px;
+    font-size: 2.5rem;/*Added in Lab 10 at request of instrcutions*/
+    display: flex;/*Added in Lab 10 at request of instrcutions*/
+    flex-wrap: wrap;/*Added in Lab 10 at request of instrcutions*/
 }
+
 
 /*
 Code for the about page
